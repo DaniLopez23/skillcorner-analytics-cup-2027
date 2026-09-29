@@ -1,0 +1,18 @@
+# Physical metrics
+
+Link scanning behaviour (Chapter 2) to each player's physical output around the moment of ball reception
+(e.g. speed, acceleration, sprint distance in the preceding seconds).
+
+## Feature construction
+
+```{python}
+# TODO: for each reception event, compute physical metrics in a window before/after
+# (e.g. peak speed, acceleration, distance covered) from tracking data
+```
+
+## Scans vs. physical output
+
+```{python}
+# TODO: relate scan count/frequency to physical metrics per reception
+# (correlation, group comparisons, regression controlling for position/game state)
+```

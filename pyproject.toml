@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillcorner-cup"
+version = "0.1.0"
+description = "SkillCorner Analytics Cup 2027 - Player Environment Awareness"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "scikit-learn>=1.3",
+    "requests>=2.31",
+    "jupyter>=1.0",
+    "ipykernel>=6.25",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

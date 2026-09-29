@@ -1,0 +1,19 @@
+# Scanning detection
+
+Derive discrete "scan" events from the body-pose/orientation stream: moments where a player rotates their
+head/torso to check the space around them before receiving the ball.
+
+## Approach
+
+```{python}
+# TODO: define scan detection from orientation/pose data, e.g.
+# - a scan = a head/torso rotation exceeding some angular threshold within a short window
+# - restrict to the N seconds preceding each ball reception by the player
+```
+
+## Validation
+
+```{python}
+# TODO: sanity-check detected scans against a few known examples (video review, if available,
+# or plausibility checks like scan rate per 90 by position)
+```

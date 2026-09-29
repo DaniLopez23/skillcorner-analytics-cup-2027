@@ -1,0 +1,29 @@
+# Introduction {.unnumbered}
+
+## Challenge
+
+Entry for the [SkillCorner Analytics Cup 2027](https://skillcorner.com/), built on SkillCorner's open data
+(tracking data + body-pose / scanning detections).
+
+## Research question
+
+**Does player environment awareness — how often and how a player scans the pitch before receiving the
+ball — relate to their subsequent physical output and the pressure they face from opponents?**
+
+Working hypotheses to explore:
+
+- Players who scan more frequently before receiving the ball experience **less pressure** at the moment of
+  reception (greater distance/time to the nearest opponent).
+- Scanning frequency correlates with **physical metrics** around the reception (acceleration, sprint
+  intensity, distance covered in the preceding seconds).
+- The relationship may vary by **role/position**, **game phase**, or **match state**.
+
+## Structure
+
+Each chapter documents one stage of the analysis:
+
+1. **Data overview** — sourcing and loading the SkillCorner open data.
+2. **Scanning detection** — deriving scan events from body-pose/orientation data.
+3. **Physical metrics** — linking scans to physical output around ball reception.
+4. **Pressure analysis** — linking scans to opponent pressure at reception.
+5. **Conclusions** — findings and next steps.

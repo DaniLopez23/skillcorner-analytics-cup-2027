@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Player Environment Awareness"
+  subtitle: "SkillCorner Analytics Cup 2027"
+  author: "Daniel Lopez"
+  date: today
+  chapters:
+    - notebooks/index.qmd
+    - notebooks/01-data-overview.qmd
+    - notebooks/02-scanning-detection.qmd
+    - notebooks/03-physical-metrics.qmd
+    - notebooks/04-pressure-analysis.qmd
+    - notebooks/05-conclusions.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    fig-width: 9
+    fig-height: 6
+
+execute:
+  freeze: auto
+  warning: false
+
+jupyter: python3

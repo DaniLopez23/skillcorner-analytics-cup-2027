@@ -1,0 +1,34 @@
+# Data overview
+
+## Source
+
+SkillCorner open data (tracking + body pose): <https://github.com/SkillCorner/opendata>
+
+Raw files are downloaded into `data/raw/` (git-ignored — not committed). Derived/cleaned tables used by
+later chapters are written to `data/processed/`.
+
+```{python}
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path.cwd().parent / "src"))
+
+from skillcorner_cup import data as scdata
+
+scdata.RAW_DATA_DIR
+```
+
+## Available matches
+
+```{python}
+# TODO: list matches once raw data has been downloaded into data/raw/
+scdata.list_available_matches()
+```
+
+## Loading a match
+
+```{python}
+# TODO: pick a match id once data is available
+# tracking = scdata.load_match_tracking(match_id)
+# physical = scdata.load_match_physical(match_id)
+```

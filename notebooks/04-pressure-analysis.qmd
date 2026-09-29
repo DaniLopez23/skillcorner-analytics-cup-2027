@@ -1,0 +1,17 @@
+# Pressure analysis
+
+Link scanning behaviour (Chapter 2) to the pressure a player faces from opponents at the moment of ball
+reception (e.g. distance/time to nearest opponent, number of opponents within a radius).
+
+## Feature construction
+
+```{python}
+# TODO: for each reception event, compute pressure metrics from tracking data
+# (e.g. distance to nearest defender, defenders within N metres, time-to-intercept)
+```
+
+## Scans vs. pressure
+
+```{python}
+# TODO: relate scan count/frequency to pressure metrics per reception
+```
